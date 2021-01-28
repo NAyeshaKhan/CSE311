@@ -6,7 +6,7 @@
 	$conn=mysqli_connect($hostname,$username,$pwd) or die('Database connection failed.');
 	$db=mysqli_select_db($conn,'likes');
 
-    $q="SELECT * FROM `anime`";
+    $q="SELECT * FROM `anime` ORDER BY `Anime_Name`";
 	
 	if($running=mysqli_query($conn,$q)){
 		echo 'Anime info: <br>';
