@@ -14,7 +14,7 @@
         
         <h1>Actions</h1>
         <button class="btn1" formaction="anime_add.php">Add New Anime</button>
-        <button class="btn1" formaction="anime_read.php">Current Anime</button>
+        <button class="btn1" formaction="anime_read.php">Read Current Anime</button>
         <button class="btn1" formaction="anime_update.php">Update Anime</button><br>
         <button class="btn1" formaction="anime_genre.php">Search by Genre</button><br>
         <button class="btn1" formaction="anime_name.php">Search by Name</button><br>

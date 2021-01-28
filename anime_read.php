@@ -35,4 +35,11 @@ body{
 background-color:rgb(230, 238, 255);
 }
 </style>
+
+<body>
+<form>
+<button class="bkbtn" formaction="likes_frontpage.php">Go Back</button>
+</form>
+</body>
+
 </html>
