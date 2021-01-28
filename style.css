@@ -1,0 +1,128 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background:url(background.png);
+
+}
+
+
+.loginbox{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid whitesmoke;
+    margin-bottom: 20px;
+    padding: 13px 0;
+}
+
+.btn{
+    width: 100%;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:rgba(37, 35, 35, 0.644);
+    padding: 25px;
+    margin:12px 0;
+    font-size: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s ease 0s;
+    
+}
+
+.btn:hover{
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+
+}
+
+
+.btn1{
+    
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.btn1{
+    width: 100%;
+    background: none;
+    background:rgba(37, 35, 35, 0.644);
+    color: whitesmoke;
+    padding: 25 15px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: all 0.4s ease 0s;
+}
+
+
+.btn1:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.bkbtn{
+    background:rgba(37, 35, 35, 0.644);
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.bkbtn:hover {
+    background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.adminbox{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+.adminbox h1{
+    color: whitesmoke;
+    float: left;
+    font-size: 40px;
+    border-bottom: 5px solid whitesmoke;
+    margin-bottom: 20px;
+    padding: 13px 0;
+}
+
