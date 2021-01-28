@@ -36,9 +36,10 @@ background-color:rgb(230, 238, 255);
 }
 </style>
 
-<body>
+<body >
 <form>
 <button class="bkbtn" formaction="likes_frontpage.php">Go Back to Homepage</button>
+
 </form>
 </body>
 

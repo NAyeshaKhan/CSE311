@@ -20,7 +20,7 @@ background-color:rgb(179, 255, 236);
 <h1 style="background-color:rgb(128, 255, 223);">Enter your information:</h1>
 <body>
 
-<form action="book_add.php" method="POST">
+<form action="book_add.php" method="POST" style ="background-image: url('sky1.jpg');  background-repeat: no-repeat;>
 <fieldset>
 <legend>Anime</legend>
 

@@ -18,7 +18,7 @@ background-color:rgb(179, 255, 236);
 </style>
 
 <h1 style="background-color:rgb(128, 255, 223);">Enter your information:</h1>
-<body>
+<body style ="background-image: url('mint.jpg');>
 
 <form action="anime_add.php" method="POST">
 <fieldset>

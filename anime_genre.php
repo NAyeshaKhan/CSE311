@@ -9,7 +9,7 @@ background-color:rgb(255, 229, 204);
 
 
 <h1 style="background-color:rgb(255, 215, 179);">Search for Books:</h1>
-<body>
+<body style ="background-image: url('orange.jpg');>
 
 <form action="anime_genre.php" method="POST">
 
