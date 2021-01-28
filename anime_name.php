@@ -15,7 +15,7 @@ background-color:rgb(255, 229, 204);
 
 
 <fieldset>	
-<legend>Search by Genre:</legend>
+<legend>Search by Name:</legend>
   Name:<input type="text" name="name"></input><br>
   <button onclick="location.href='anime.php'" type="button">Go Back</button>
  <input type="submit" name="Submit" value="Search Anime"></input><br> 

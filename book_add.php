@@ -27,6 +27,7 @@ background-color:rgb(179, 255, 236);
   Name:<input type="text" name="name"></input><br>
   Genre:<input type="text" name="genre"></input><br>
   Number Of Pages:<input type="text" name="pages"></input><br>
+  Author:<input type="text" name="author"></input><br>
   Read this Or Nah?:<input type="text" name="tbr"></input><br>
   
 </fieldset>
@@ -44,11 +45,12 @@ background-color:rgb(179, 255, 236);
 if (isset($_POST['Submit'])){
 	
 	$name=$_POST['name'];
+	$author=$_POST['author'];
 	$genre=$_POST['genre'];
 	$pages=$_POST['pages'];
 	$tbr=$_POST['tbr'];	
 	
-	$q = "INSERT INTO `books`(`Book_Name`, `Genre`, `PageNo`,`TBRead`) VALUES ('$name','$genre','$pages','$tbr')";
+	$q = "INSERT INTO `books`(`Book_Name`,`Author`, `Genre`, `PageNo`,`TBRead`) VALUES ('$name','$author','$genre','$pages','$tbr')";
 	
 	$run=mysqli_query($conn,$q);
       if($run){
