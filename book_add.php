@@ -13,27 +13,26 @@
 
 <style>
 body{
-background-color:rgb(179, 255, 236);
+background-image: url('tumblr_3033e5fa5ea7ce70be33503642d54afb_cb9111c5_1280.jpg');
 }
 </style>
 
-<h1 style="background-color:rgb(128, 255, 223);">Enter your information:</h1>
+<h1 style="background-color:rgb(250, 220, 223);">Enter your information:</h1>
 <body>
 
-<form action="book_add.php" method="POST" style ="background-image: url('sky1.jpg');  background-repeat: no-repeat;>
+<form action="book_add.php" method="POST" >
 <fieldset>
 <legend>Anime</legend>
 
   Name:<input type="text" name="name"></input><br>
+  Author:<input type="text" name="author"></input><br>
   Genre:<input type="text" name="genre"></input><br>
   Number Of Pages:<input type="text" name="pages"></input><br>
-  Author:<input type="text" name="author"></input><br>
-  Read this Or Nah?:<input type="text" name="tbr"></input><br>
-  
+  Read this Or Nah?:<input type="text" name="tbr"> </input><br> 
 </fieldset>
 
 <button onclick="location.href='book.php'" type="button">Go Back</button>
-  <input type="submit" name="Submit" value="Add Anime"></input>
+  <input type="submit" name="Submit" value="Add Book"></input>
   
 </form>
 </body>

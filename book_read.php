@@ -12,8 +12,8 @@ $q="SELECT * FROM `books` ORDER BY 'TBRead' DESC";
 		echo '------------------<br>';
 	
 	while($i=mysqli_fetch_assoc($running)){
-	echo $i['Book_Name'].' | Genre: ';
-	echo $i['Genre'].' | Episodes: ';
+	echo '♥'.$i['Book_Name'].' | Genre: ';
+	echo $i['Genre'].' | Number Of Pages: ';
 	echo $i['PageNo'].' | ';
 	echo $i['TBRead'];
 	echo "<br>";
@@ -32,4 +32,11 @@ body{
 background-color:rgb(230, 238, 255);
 }
 </style>
+<body>
+
+<form>
+<button class="bkbtn" formaction="likes_frontpage.php">Go Back to Homepage</button>
+</form>
+</body>
+
 </html>
