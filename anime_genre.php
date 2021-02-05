@@ -3,12 +3,12 @@
 
 <style>
 body{
-	background-image: url('orange.jpg')
+	background-image: url('9e391385059f552058d9db2c0caf4e16.png')
 }
 </style>
 
 
-<h1 style="background-color:rgb(255, 215, 179);">Search by Genre:</h1>
+<h1>Search by Genre:</h1>
 <body>
 
 <form action="anime_genre.php" method="POST">
