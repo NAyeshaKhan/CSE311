@@ -12,7 +12,8 @@ $q="SELECT * FROM `books` ORDER BY 'TBRead' DESC";
 		echo '------------------<br>';
 	
 	while($i=mysqli_fetch_assoc($running)){
-	echo '♥'.$i['Book_Name'].' | Genre: ';
+	echo '♥ '.$i['Book_Name'].' | Author: ';
+	echo $i['Author'].' | Genre: ';
 	echo $i['Genre'].' | Number Of Pages: ';
 	echo $i['PageNo'].' | ';
 	echo $i['TBRead'];
@@ -29,7 +30,7 @@ $q="SELECT * FROM `books` ORDER BY 'TBRead' DESC";
 
 <style>
 body{
-background-color:rgb(230, 238, 255);
+background-image: url('pixel sky 1.jpg');
 }
 </style>
 <body>
