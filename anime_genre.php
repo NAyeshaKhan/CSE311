@@ -3,27 +3,23 @@
 
 <style>
 body{
-background-color:rgb(255, 229, 204);
+	background-image: url('orange.jpg')
 }
 </style>
 
 
-<h1 style="background-color:rgb(255, 215, 179);">Search for Books:</h1>
-<body style ="background-image: url('orange.jpg');>
+<h1 style="background-color:rgb(255, 215, 179);">Search by Genre:</h1>
+<body>
 
 <form action="anime_genre.php" method="POST">
 
-
 <fieldset>	
-<legend>Search by Genre:</legend>
+<legend>Enter, you fool:</legend>
   Genre:<input type="text" name="genre"></input><br>
   
   <button onclick="location.href='anime.php'" type="button">Go Back</button>
  <input type="submit" name="Submit" value="Search by Genre"></input><br> 
-</fieldset>  
-  
-  
-  
+</fieldset>    
 </form>
 
 </body>

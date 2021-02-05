@@ -13,12 +13,12 @@
 
 <style>
 body{
-background-color:rgb(179, 255, 236);
+background-image: url('mint.jpg');
 }
 </style>
 
 <h1 style="background-color:rgb(128, 255, 223);">Enter your information:</h1>
-<body style ="background-image: url('mint.jpg');>
+<body>
 
 <form action="anime_add.php" method="POST">
 <fieldset>

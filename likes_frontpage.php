@@ -12,12 +12,10 @@
 
     <form class="adminbox">
         
-        <h1>Tables</h1>
+        <h1>Current Databases</h1>
 		
         <button class="btn1" formaction="anime.php">Anime</button><br>
         <button class="btn1" formaction="book.php">Books</button><br>
-        <button class="btn1" formaction="movie.php">Movies</button><br>
-		<button class="btn1" formaction="tv.php">TV Shows</button>
 		
     </form>
     

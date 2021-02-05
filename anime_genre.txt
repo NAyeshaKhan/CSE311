@@ -8,18 +8,21 @@ background-color:rgb(255, 229, 204);
 </style>
 
 
-<h1 style="background-color:rgb(255, 215, 179);">Search Anime by Name:</h1>
-<body style ="background-image: url('orange.jpg')";>
+<h1 style="background-color:rgb(255, 215, 179);">Search for Books:</h1>
+<body>
 
 <form action="anime_name.php" method="POST">
-<fieldset>	
-<legend>Search by Name:</legend>
- 
- Name:<input type="text" name="name"></input><br>
-  <button onclick="location.href='anime.php'" type="button">Go Back</button>
- <input type="submit" name="Submit" value="Search Anime"></input><br> 
 
-</fieldset>    
+
+<fieldset>	
+<legend>Search by Genre:</legend>
+  Name:<input type="text" name="name"></input><br>
+  <button onclick="location.href='anime.php'" type="button">Go Back</button>
+ <input type="submit" name="Submit" value="Search Genre"></input><br> 
+</fieldset>  
+  
+  
+  
 </form>
 
 </body>

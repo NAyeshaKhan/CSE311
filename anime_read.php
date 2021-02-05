@@ -13,8 +13,7 @@
 		echo '------------------<br>';
 	
 	while($i=mysqli_fetch_assoc($running)){
-	echo $i['Anime_Id'].' | ';
-	echo $i['Anime_Name'].' | Genre: ';
+	echo '★'.$i['Anime_Name'].' | Genre: ';
 	echo $i['Genre'].' | Episodes: ';
 	echo $i['Episodes_No'].' | ';
 	echo $i['Watched'];
