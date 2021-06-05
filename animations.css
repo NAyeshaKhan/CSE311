@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
 <style>
-	
-  div{
+	body{/*Empty code cos first few lines of .css files aren't working for some reason*/}
+div{
+	border: 2px solid black;
+  
+}	
+  .xx{
+  border-radius: 30px;
   width: 100px;
   height: 100px;
-  background: pink;
-  transition: width 2s, height 2s;
+  transition: width 2s, height 2s, transform 2s;
 }
 
-div:hover {
-  width: 200px;
-  height: 200px;
+  .xx:hover {
+  width: 300px;
+  height: 300px;
+ 
 }
 
+  .xy{
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+  .xy:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
 </style>
 </head>
 </html>
