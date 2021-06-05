@@ -3,19 +3,30 @@
 <head>
 <style>
 	
-	a:link{
-	color:green;
+	a:link {
+	color:blue;
 	text-decoration:none;
 	}
-	a:visited{
+	
+	a:visited {
 	color:pink;
 	text-decoration:none;
 	}
-	a:hover{
-	color:blue;
+	
+	a:hover {
+	color:red;
 	text-decoration:underline;
 	}
 	
+tr:hover{
+	background-color:rgb(204, 229, 255);
+}
+table,th,td{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+
 	
     body {
     background-color: linen;
@@ -54,27 +65,28 @@ li a {
 
 li a:hover {
   background-color: #111;
-}
-	/*ul.a {
-  list-style-type: circle;
+  color:pink;
 }
 
-ul.b {
-  list-style-type: square;
-}
-*/
 ol.b {
   list-style-type: upper-roman;
 }
-div {
-  width: 100px;
-  height: 100px;
+.anim {
+  width: 50px;
+  height: 50px;
   background-color: red;
   position: relative;
   animation-name: example;
   animation-duration: 4s;
 }
-
+div.bars{
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
@@ -82,6 +94,21 @@ div {
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
 }
+
+p.showme {
+  display: none;
+  background-color: pink;
+  padding: 20px;
+}
+::selection {
+  color: white;
+  background: pink;
+}
+
+div:hover p.showme {
+  display: block;
+}
+
 </style>
 </head>
 </html>
