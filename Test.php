@@ -28,7 +28,7 @@ background-color:rgb(128,215,245);
   Customer Id:<input type="text" name="id"></input><br>
   Colour:<input type="text" name="color"></input><br>
   Gender:<input type="text" name="gender"></input><br>
-  
+  So you're:<?php echo $_POST["fname"] ?>
 </fieldset>
   <input type="submit" name="Submit" value="Submit survey info"></input>
   
