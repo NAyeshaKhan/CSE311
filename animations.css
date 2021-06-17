@@ -33,6 +33,22 @@ div{
   height: 300px;
   transform: rotate(180deg);
 }
+div.x {
+  width: 100px;
+  height: 100px;
+  background-color:#99caff;
+  position: relative;
+  animation-name: moves;
+  animation-duration: 4s;
+}
+
+@keyframes moves {
+  0%   {background-color:#99caff; left:0px; top:0px;}
+  25%  {background-color:#2eb8b8; left:100px; top:0px;}
+  50%  {background-color:#0099cc; left:100px; top:100px;}
+  75%  {background-color:#adebeb; left:0px; top:100px;}
+  100% {background-color:#99caff; left:0px; top:0px;}/*return to origin*/
+}
 </style>
 </head>
 </html>
