@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script1.js"></script>
+</head>
+<body>
+
+<form name="Form1" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Your Name:<input type="text" name="fname"><br><br>
+  Your Job:<input type="text" name="job" required><br>
+  <input type="submit" value="Submit">
+</form>
+
+Your Age (You can't be more than 50):<input id="num"><br>
+<button type="button" onclick="NumValid()">Submit age</button>
+<p id="numnum"></p>
+</body>
+</html>
